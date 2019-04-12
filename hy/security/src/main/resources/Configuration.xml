@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration interval="10000">
+    <forward requestUrl="/security/fiveEvils/*" toURL="http://172.28.22.47:23456/security/fiveEvils/*" ></forward>
+    <forward requestUrl="asd" toURL="asd"></forward>
+</Configuration>
+

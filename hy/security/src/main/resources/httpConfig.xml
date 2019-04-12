@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration contextPath="security/fiveEvils/">
+    <web ip="172.28.22.47" port="23456">
+        <path key="web/overview">web/overview</path>
+        <path key="cannon/web/list">cannon/web/list</path>
+        <path key="cannon/web/temperRecords">cannon/web/temperRecords</path>
+        <path key="cannon/web/temperList">cannon/web/temperList</path>
+    </web>
+    <dns ip="172.28.22.47" port="23456">
+        <path key="dns/overview">dns/overview1</path>
+        <path key="dns/hijackList">dns/hijackList</path>
+        <path key="cannon/dns/list">cannon/dns/list</path>
+    </dns>
+    <message ip="172.28.22.47" port="23456">
+        <path key="message/overview">message/overview1</path>
+        <path key="message/hijackList">message/hijackList</path>
+        <path key="cannon/message/list">cannon/message/list</path>
+    </message>
+    <ddos ip="172.28.22.47" port="23456">
+        <path key="ddos/overview">ddos/overview1</path>
+        <path key="ddos/top5">ddos/top5</path>
+        <path key="ddos/classify">ddos/classify</path>
+        <path key="ddos/attackList">ddos/attackList</path>
+        <path key="cannon/ddos/list">cannon/ddos/list</path>
+        <path key="cannon/ddos/blinkProv">cannon/ddos/blinkProv</path>
+        <path key="cannon/ddos/attackFlow">cannon/ddos/attackFlow</path>
+        <path key="cannon/ddos/attackPaths">cannon/ddos/attackPaths</path>
+    </ddos>
+    <cdn ip="172.28.22.47" port="23456">
+        <path key="cdn/overview">cdn/overview</path>
+        <path key="cdn/temperList">cdn/temperList</path>
+        <path key="cannon/cdn/list">cannon/cdn/list</path>
+    </cdn>
+</Configuration>
+
